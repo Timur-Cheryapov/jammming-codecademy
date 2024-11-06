@@ -1,3 +1,5 @@
+import styles from './SearchBar.module.css'
+
 import React, { useState } from 'react'
 import { SEARCH_DEFAULT } from '../../utils/mockData'
 
@@ -10,10 +12,19 @@ function SearchBar(props) {
     }
 
     return (
-        <>
-            <input value={prompt} onChange={onPromptChangeHandler} />
-            <button onClick={() => onSearchClick(prompt)}>Search</button>
-        </>
+        <div className={styles.SearchBar}>
+            <div className={styles.SearchInputContainer}>
+                <input
+                    className={styles.SearchInput}
+                    value={prompt}
+                    onChange={onPromptChangeHandler} />
+            </div>
+            <button
+                className={styles.Button}
+                onClick={() => onSearchClick(prompt)}>
+                Search
+            </button>
+        </div>
     );
 }
 

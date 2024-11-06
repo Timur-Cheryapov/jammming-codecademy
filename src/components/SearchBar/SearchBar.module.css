@@ -1,0 +1,28 @@
+.SearchBar {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    height: 5rem;
+    width: 100%;
+    margin: 4% 0;
+}
+
+.SearchInputContainer {
+    width: 40%;
+    display: flex;
+    justify-items: center;
+    margin: 0 2%;
+}
+
+.SearchInput {
+    width: 100%;
+    padding: 2%;
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.Button {
+    width: 20%;
+    font-size: 2rem;
+}

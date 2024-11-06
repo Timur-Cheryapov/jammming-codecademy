@@ -1,3 +1,5 @@
+import styles from "./App.module.css";
+
 import React, { useState, useEffect } from 'react'
 import { MOCK_TRACKS, MOCK_MY_TRACKS, SEARCH_DEFAULT } from '../../utils/mockData'
 import Playlist from '../Playlist/Playlist'
@@ -50,16 +52,20 @@ function App() {
   }
 
   return (
-    <div>
+    <div className={styles.App}>
+      <h1 className={styles.Title}>Jammming</h1>
       <SearchBar onSearchClick={onSearchClickHandler} />
-      <SearchResults tracks={tracks} onAddTrack={onAddTrackHandler} />
-      <Playlist
-        playlistName={playlistName}
-        tracks={myTracks}
-        onRemoveTrack={onRemoveTrackHandler}
-        onSavePlaylist={onSavePlaylistHandler}
-        onPlaylistNameChange={playlistNameChangeHandler}
-      />
+
+      <div className={styles.Tracklists}>
+        <SearchResults tracks={tracks} onAddTrack={onAddTrackHandler} />
+        <Playlist
+          playlistName={playlistName}
+          tracks={myTracks}
+          onRemoveTrack={onRemoveTrackHandler}
+          onSavePlaylist={onSavePlaylistHandler}
+          onPlaylistNameChange={playlistNameChangeHandler}
+        />
+      </div>
     </div>
   );
 }

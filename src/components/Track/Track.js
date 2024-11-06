@@ -1,3 +1,5 @@
+import styles from './Track.module.css'
+
 import React from 'react'
 
 function Track(props) {
@@ -8,12 +10,16 @@ function Track(props) {
     }
 
     return (
-        <li onClick={handleClick} >
-            <h1>{songName}</h1>
-            <h2>{artist}</h2>
-            <h3>{album}</h3>
-            <img src={albumCoverUrl} />
-            <audio controls src={previewAudioUrl} />
+        <li className={styles.Track} onClick={handleClick} >
+            <div className={styles.Information}>
+                <h1 className={styles.Song}>{songName}</h1>
+                <h2 className={styles.Artist}>{artist}</h2>
+                {/* <h3 className={styles.Album}>{album}</h3> */}
+                <audio className={styles.Audio} controls src={previewAudioUrl} />
+            </div>
+            <div className={styles.CoverContainer}>
+                <img className={styles.Cover} src={albumCoverUrl} />
+            </div>
         </li>
     );
 }

@@ -1,0 +1,50 @@
+body,
+html,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+p {
+  font-weight: lighter;
+}
+
+.Title {
+  padding: .77rem 0;
+  text-align: center;
+  font-size: 4rem;
+  color: #000;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  height: 100%;
+  padding: 0 7% 10% 7%;
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Calibri', sans-serif;
+  color: #000;
+}
+
+.Tracklists {
+  display: flex;
+  width: 100%;
+  gap: 5%;
+}

@@ -1,0 +1,35 @@
+.Playlist {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+
+.TitleContainer {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    height: 5rem;
+    width: 100%;
+}
+
+.InputContainer {
+    width: 80%;
+    display: flex;
+    justify-items: center;
+    border-bottom: 1px solid #bbb;
+    margin: 0 2%;
+}
+
+.TitleInput {
+    width: 100%;
+    padding: 2%;
+    font-size: 1.77rem;
+    font-weight: bold;
+    border: none;
+}
+
+.SaveButton {
+    font-size: 1rem;
+}

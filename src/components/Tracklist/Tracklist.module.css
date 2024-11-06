@@ -1,0 +1,13 @@
+.Tracklist {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.NothingToShowText {
+    font-size: 1.77rem;
+    text-align: center;
+}

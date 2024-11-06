@@ -1,0 +1,17 @@
+.SearchResults {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 50%;
+    align-items: center;
+    justify-items: center;
+    padding: 0 1%;
+}
+
+.Title {
+    margin: 0;
+    font-size: 2rem;
+    height: 5rem;
+    line-height: 5rem;
+    vertical-align: middle;
+}
