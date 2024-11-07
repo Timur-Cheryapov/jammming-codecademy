@@ -5,6 +5,11 @@ html,
   margin: 0;
 }
 
+/* body {
+  background-image: url(../../blue-waves-background.jpg);
+  backdrop-filter: saturate(20%) hue-rotate(-80deg);
+} */
+
 html {
   font-size: 18px;
 }

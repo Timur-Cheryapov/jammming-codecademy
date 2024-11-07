@@ -11,13 +11,20 @@ function SearchBar(props) {
         setPrompt(target.value)
     }
 
+    const onEnterPress = (event) => {
+        if (event.key === 'Enter') {
+            onSearchClick(prompt)
+        }
+    }
+
     return (
         <div className={styles.SearchBar}>
             <div className={styles.SearchInputContainer}>
                 <input
                     className={styles.SearchInput}
                     value={prompt}
-                    onChange={onPromptChangeHandler} />
+                    onChange={onPromptChangeHandler}
+                    onKeyUp={onEnterPress} />
             </div>
             <button
                 className={styles.Button}

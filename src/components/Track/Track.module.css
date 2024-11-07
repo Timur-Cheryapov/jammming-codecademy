@@ -25,7 +25,7 @@
 }
 
 .Cover {
-    object-fit: contain;
+    object-fit: cover;
     height: 100%;
     margin: 1%;
     border-radius: 32%;
