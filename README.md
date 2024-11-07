@@ -1,7 +1,7 @@
-# Натальная карта - JavaScrypt
+# Jammming - React Web-App
 
 ## Description
-React Web-app for searching songs, adding favorite ones to the playlist and saving it to your account in Spotify (login required).
+Web-app for searching songs, adding favorite ones to the playlist and saving it to your account in Spotify (login required).
 This is the portfolio project task from online-platform codecademy.com.
 
 ## Features
