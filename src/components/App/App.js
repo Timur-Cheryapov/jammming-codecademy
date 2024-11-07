@@ -57,14 +57,19 @@ function App() {
       <SearchBar onSearchClick={onSearchClickHandler} />
 
       <div className={styles.Tracklists}>
-        <SearchResults tracks={tracks} onAddTrack={onAddTrackHandler} />
-        <Playlist
+        <div className={styles.EachTracklist}>
+          <SearchResults
+          tracks={tracks}
+          onAddTrack={onAddTrackHandler} />
+        </div>
+        <div className={styles.EachTracklist}>
+          <Playlist
           playlistName={playlistName}
           tracks={myTracks}
           onRemoveTrack={onRemoveTrackHandler}
           onSavePlaylist={onSavePlaylistHandler}
-          onPlaylistNameChange={playlistNameChangeHandler}
-        />
+          onPlaylistNameChange={playlistNameChangeHandler} />
+        </div>
       </div>
     </div>
   );

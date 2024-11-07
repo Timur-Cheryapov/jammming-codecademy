@@ -1,9 +1,13 @@
 .Playlist {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-items: center;
+}
+
+.Tracklist {
+    width: 100%;
 }
 
 .TitleContainer {

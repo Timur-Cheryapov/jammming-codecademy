@@ -5,6 +5,10 @@
     align-content: center;
     justify-content: center;
     gap: 0.3rem;
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .NothingToShowText {

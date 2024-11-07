@@ -8,7 +8,10 @@ function SearchResults(props) {
     return (
         <div className={styles.SearchResults}>
             <h1 className={styles.Title}>Search Results</h1>
-            <Tracklist tracks={props.tracks} onTrackClick={props.onAddTrack} />
+            <Tracklist
+                className={styles.Tracklist}
+                tracks={props.tracks}
+                onTrackClick={props.onAddTrack} />
         </div>
     );
 }
