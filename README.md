@@ -1,5 +1,7 @@
 # Jammming - React Web-App
 
+![App Preview](./public/preview.gif)
+
 ## Description
 Web-app for searching songs, adding favorite ones to the playlist and saving it to your account in Spotify (login required).
 This is the portfolio project task from online-platform codecademy.com.
