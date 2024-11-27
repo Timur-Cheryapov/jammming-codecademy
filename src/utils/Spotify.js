@@ -1,5 +1,5 @@
 const clientId = 'f6564d8f7bfc430b99b2f83a4f27d344'
-const redirectUri = 'http://localhost:3000/'
+const redirectUri = 'https://timur-cheryapov.github.io/jammming-codecademy/'
 let accessToken
 
 const generateRandomString = (length) => {

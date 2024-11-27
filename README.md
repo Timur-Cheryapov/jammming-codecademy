@@ -12,13 +12,14 @@ This is the portfolio project task from online-platform codecademy.com.
 * Export your custom playlist to your personal Spotify account
 
 ## How to use
-Just launch it locally. Soon I will make this project interactive on my personal timur-cheryapov.github.io website.
+You can launch it locally.
+Or you can visit this project on my [personal website](https://timur-cheryapov.github.io/jammming-codecademy/).
 
 ## Technologies
 * React
 * HTML
 * CSS
-* JavaScrypt
+* JavaScript
 * HTTP Requests and Responses
 * Authentication
 * Spotify API
